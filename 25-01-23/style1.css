@@ -1,0 +1,50 @@
+/* unversal selector */
+/* * {
+  margin: 0px;
+  padding: 0px;
+/* }
+/* element selector */
+/* h1 {
+  color: #808080;
+} */
+/* cless selector */
+/* .pra {
+  color: blue;
+}
+.hello {
+  font-size: 25px;
+} */
+/* ID selector */
+/* #id1 {
+  color: whitesmoke;
+  background-color: black;
+} */
+/* selector list */
+/* .class1,
+.class7,
+.class8 {
+}  */
+/* DES selector */
+main p {
+  color: blueviolet;
+}
+/* child selector */
+h1 > p {
+  color: aquamarine;
+}
+/* adjent sibling */
+/* section + p {
+  color: brown;
+} */
+/* genral sibling selector */
+section ~ p {
+  color: blueviolet;
+}
+/* attribute selector */
+[target="_blank"] {
+  color: pink;
+  text-decoration: none;
+}
+[alt~="pw"] {
+  background-color: black;
+}

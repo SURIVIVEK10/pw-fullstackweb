@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media</title>
+    <style>
+      body {
+        background-color: red;
+      }
+      div {
+        font-size: x-large;
+        text-align: center;
+      }
+      div::after {
+        content: "Welocome to the demo";
+      }
+      @media (max-width: 400px) {
+        body {
+          background-color: brown;
+        }
+        div::after {
+          content: "very small";
+        }
+      }
+
+      @media (400px<= width<=768) {
+        /* if viewport 900px than aplly in style */
+        body {
+          background-color: rebeccapurple;
+        }
+        div::after {
+          content: "small screen";
+        }
+      }
+      @media (min-width: 900px) {
+        /* if viewport 900px than aplly in style */
+        body {
+          background-color: aquamarine;
+        }
+        div::after {
+          content: "Wohw it working";
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div></div>
+  </body>
+</html>
